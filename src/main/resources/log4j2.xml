@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN" >
+
+    <!-- Logging Properties -->
+    <Properties>
+        <Property name="LOG_PATTERN">%d{yyyy-MM-dd HH:mm:ss.SSS} | THREAD %tid | %-5level | %c{1} | %msg%n</Property>
+        <Property name="APP_LOG_ROOT">logs/BaseTest</Property>
+    </Properties>
+
+    <Appenders>
+
+        <!-- Console Appender -->
+        <Console name="Console" target="SYSTEM_OUT" follow="true">
+            <PatternLayout pattern="${LOG_PATTERN}"/>
+        </Console>
+
+<!--        <RollingFile name="errorLog" fileName="${APP_LOG_ROOT}/errorLog/BaseTest-error-${date:MMddyyyy-HHmm}.log"-->
+<!--                     filePattern="${APP_LOG_ROOT}/errorLog/Test-error-%d{yyyy-MM-dd-HH}.log" >-->
+<!--            <LevelRangeFilter minLevel="ERROR" maxLevel="ERROR" onMatch="ACCEPT" onMismatch="DENY"/>-->
+<!--            <PatternLayout pattern="${LOG_PATTERN}"/>-->
+<!--            <Policies>-->
+<!--                <TimeBasedTriggeringPolicy interval="1"/>-->
+<!--            </Policies>-->
+<!--        </RollingFile>-->
+
+<!--        <RollingFile name="traceLog" fileName="${APP_LOG_ROOT}/traceLog/BaseTest-trace-${date:MMddyyyy-HHmm}.log"-->
+<!--                     filePattern="${APP_LOG_ROOT}/traceLog/Test-trace-%d{yyyy-MM-dd-HH}.log" >-->
+<!--            <PatternLayout pattern="${LOG_PATTERN}"/>-->
+<!--            <Policies>-->
+<!--                <TimeBasedTriggeringPolicy interval="1"/>-->
+<!--            </Policies>-->
+<!--        </RollingFile>-->
+
+    </Appenders>
+
+    <Loggers>
+
+        <Root level="info">
+            <AppenderRef ref="traceLog" />
+            <AppenderRef ref="errorLog" />
+            <AppenderRef ref="Console" />
+        </Root>
+
+    </Loggers>
+
+</Configuration>
