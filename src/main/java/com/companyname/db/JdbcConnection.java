@@ -1,8 +1,8 @@
-package com.healthedge.db;
+package com.companyname.db;
 
-import com.healthedge.config.Properties;
-import com.healthedge.config.props.PropertyListReader;
-import com.healthedge.config.props.PropertyReader;
+import com.companyname.config.Properties;
+import com.companyname.config.props.PropertyListReader;
+import com.companyname.config.props.PropertyReader;
 import org.apache.commons.lang3.StringUtils;
 
 import java.sql.Connection;

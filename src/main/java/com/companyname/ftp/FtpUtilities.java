@@ -1,7 +1,7 @@
-package com.healthedge.ftp;
+package com.companyname.ftp;
 
-import com.healthedge.config.Properties;
-import com.healthedge.config.props.PropertyReader;
+import com.companyname.config.Properties;
+import com.companyname.config.props.PropertyReader;
 import com.jcraft.jsch.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

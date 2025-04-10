@@ -1,4 +1,4 @@
-package com.healthedge.ftp;
+package com.companyname.ftp;
 
 import java.util.Objects;
 

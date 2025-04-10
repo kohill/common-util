@@ -1,4 +1,4 @@
-package com.healthedge.common;
+package com.companyname.common;
 
 import org.javamoney.moneta.Money;
 import org.javamoney.moneta.format.CurrencyStyle;

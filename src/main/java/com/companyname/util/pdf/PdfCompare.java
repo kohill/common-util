@@ -1,4 +1,4 @@
-package com.healthedge.util.pdf;
+package com.companyname.util.pdf;
 
 import com.testautomationguru.utility.CompareMode;
 import com.testautomationguru.utility.PDFUtil;

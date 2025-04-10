@@ -1,4 +1,4 @@
-package com.healthedge.common;
+package com.companyname.common;
 
 import java.time.DayOfWeek;
 import java.time.LocalDate;

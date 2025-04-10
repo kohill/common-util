@@ -1,4 +1,4 @@
-package com.healthedge.util;
+package com.companyname.util;
 
 public class XmlException extends RuntimeException {
 

@@ -1,4 +1,4 @@
-package com.healthedge.ftp;
+package com.companyname.ftp;
 
 import com.jcraft.jsch.SftpProgressMonitor;
 import org.apache.logging.log4j.LogManager;

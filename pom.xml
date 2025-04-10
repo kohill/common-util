@@ -3,11 +3,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.healthedge.commons</groupId>
+    <groupId>com.companyname.commons</groupId>
     <artifactId>common-utils</artifactId>
     <version>1.0.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <name>Common Utilities for HealthEdge Automation</name>
+    <name>Common Utilities for companyname Automation</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -27,7 +27,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.healthedge.commons</groupId>
+            <groupId>com.companyname.commons</groupId>
             <artifactId>properties-util</artifactId>
             <scope>system</scope>
             <!--Not recommended to hard code path, sample-->

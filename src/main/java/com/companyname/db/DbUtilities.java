@@ -1,4 +1,4 @@
-package com.healthedge.db;
+package com.companyname.db;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

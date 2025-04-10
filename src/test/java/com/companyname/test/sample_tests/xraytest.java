@@ -1,4 +1,4 @@
-package com.healthedge.test.sample_tests;
+package com.companyname.test.sample_tests;
 
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;

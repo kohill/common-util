@@ -1,4 +1,4 @@
-package com.healthedge.ftp;
+package com.companyname.ftp;
 
 import com.jcraft.jsch.JSch;
 import com.jcraft.jsch.JSchException;

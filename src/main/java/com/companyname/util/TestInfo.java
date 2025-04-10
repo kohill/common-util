@@ -1,4 +1,4 @@
-package com.healthedge.util;
+package com.companyname.util;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
